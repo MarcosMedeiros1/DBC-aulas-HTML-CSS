@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contato</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="#">
+          <img src="./img/cogumelo-vermelho.png" alt="logo" width="60px">
+        </a>
+        <small>Melhores alunos do Vemser de todos os tempos</small>
+      </div>
+
+      <nav class="header-menu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h1 class="contato-title">Contato</h1>
+    <form class="contato">
+      <label for="name">Digite seu nome completo: </label><br>
+      <input type="text" name="name" placeholder="nome completo">
+      <br><br>
+      <label for="email">Digite seu e-mail: </label><br>
+      <input type="email" name="email" placeholder="e-mail">
+      <br><br>
+      <label for="motivo">Qual o motivo do contato</label><br>
+      <select name="motivo" id="motivo">
+        <option value="m1">Dúvida HTML</option>
+        <option value="m2">Dúvida CSS</option>
+        <option value="m3">Dúvida JavaScript</option>
+      </select>
+      <br><br>
+      <label for="mensagem">Sua Mensagem</label>
+      <br>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <br><br>
+      <input type="submit" value="Salvar" id="salvar">
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+      <address>Tv. São José, 455 - Navegantes, Porto Alegre</address>
+    </div>
+  </footer>
+</body>
+
+</html>
