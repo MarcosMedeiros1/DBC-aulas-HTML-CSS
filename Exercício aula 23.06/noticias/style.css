@@ -1,0 +1,46 @@
+@import "../main.css";
+
+main {
+  flex-direction: column;
+}
+
+img {
+  cursor: pointer;
+}
+
+.container-noticias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.container-propaganda {
+  text-align: center;
+}
+
+.container-bermudas {
+  display: flex;
+  gap: 40px;
+}
+
+.container-bermudas img {
+  width: 250px;
+}
+
+.bermuda-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bermuda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

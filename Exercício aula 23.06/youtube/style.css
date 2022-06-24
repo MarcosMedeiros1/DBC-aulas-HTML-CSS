@@ -1,5 +1,9 @@
 @import "../main.css";
 
+img {
+  cursor: pointer;
+}
+
 .video {
   display: flex;
   flex-direction: column;
@@ -18,8 +22,4 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.recomendado img {
-  width: 300px;
 }
