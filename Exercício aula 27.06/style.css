@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 1400px;
+}
+
+nav {
+  background-color: #2c2c2c;
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  color: #fff;
+  padding: 4px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #fff;
+  color: #2c2c2c;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.links {
+  font-size: 20px;
+}
+
+/* Notícias */
+
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Propaganda */
+
+.grid-ad-bermudas {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.ads {
+  display: grid;
+  justify-content: center;
+}
+
+.ad {
+  text-align: center;
+}
+
+/* Bermudas */
+
+.bermudas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+}
+
+.bermuda {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Produtos */
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+/* Vídeos */
+
+.videos {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.recomendados div {
+  margin-bottom: 20px;
+}
+
+/* Galeria */
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.imagem {
+  display: grid;
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
+.lg img {
+  height: 790px;
+}
+
+.grid-imagens {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.imagem span {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 690px;
+}

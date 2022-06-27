@@ -15,9 +15,10 @@ img {
 }
 
 .container {
+  width: 1450px;
+  margin: auto;
   padding: 40px;
   display: flex;
-  justify-content: center;
 }
 
 /* Menu */
